@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?fam..ily=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+    --color-light-50: #f8fafc;
+
+    --color-dark-50: #797984;
+    --color-dark-100: #312d37;
+    --color-dark-900: #000000;
+
+    --color-red-50: #570202;
+    --color-red-100: #a11f1f;
+    --color-red-200: #a74e4e;
+
+    --color-gradient: linear-gradient(90deg, var(--color-red-50), var(--color-red-100), var(--color-red-200));
+}
+
+*{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 100%;
+    height: 100vh;
+    background: var(--color-gradient);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#login_form {
+    background-color: var(--color-light-50);
+    display: flex;
+    flex-direction: column;
+    padding: 30px 40px;
+    border-radius: 8px;
+    gap: 30px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.336);
+    height: fit-content;
+}
+
+#form_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#form_header h1 {
+    font-size: 40px;
+    position: relative;
+}
+
+#form_header h1::before {
+    position: absolute;
+    content: '';
+    width: 45%;
+    background-color: var(--color-red-100);
+    height: 3px;
+    bottom: 5px;
+    border-radius: 5px;
+}
+
+#mode_icon {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#social_media{
+    display: flex;
+    justify-content: space-around;
+}
+
+#social_media img{
+    width: 35px;
+}
+
+#social_media img:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+#inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.input-box label {
+    font-size: 14px;
+    color: var(--color-dark-50);
+}
+
+.input-field {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 3px;
+    cursor: text;
+    border-bottom: 1px solid var(--color-red-100);
+}
+
+.input-field i {
+    font-size: 18px;
+    color: var(--color-dark-900);
+}
+
+.input-field input {
+    border: none;
+    width: 260px;
+    outline: none;
+    font-size: 18px;
+    padding: 0px 5px;
+    color: var(--color-dark-900);
+    background-color: transparent;
+}
+
+ #forgot_password a {
+    text-decoration: none;
+    color: var(--color-dark-50);
+    font-size: 12px;
+}
+
+ #forgot_password a:hover {
+    color: var(--color-red-50);
+    transition: 0.3s;
+}
+
+#login_button {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    background: var(--color-gradient);
+    color: var(--color-light-50);
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#login_button:hover {
+    transform: scale(1.05);
+    background: var(--color-red-100);
+    transition: 0.3s;
+}
