@@ -25,7 +25,7 @@ Este projeto é uma página de login com foco em **UI/UX**, criada para praticar
 
 | Modo Claro | Modo Escuro |
 |:---:|:---:|
-| _[inserir screenshot]_ | _[inserir screenshot]_ |
+| ![Modo Claro](assets/images/preview/light-mode-full.png) | ![Modo Escuro](assets/images/preview/dark-mode-full.png) |
 
 </div>
 
@@ -61,7 +61,7 @@ cd Login-Dark-Light
 # (ou use a extensão Live Server no VS Code)
 ```
 
-Não há dependências para instalar — é um projeto 100% front-end estático (o único recurso externo é o Font Awesome, carregado via CDN).
+Não há dependências para instalar é um projeto 100% front-end estático (o único recurso externo é o Font Awesome, carregado via CDN).
 
 ## 📂 Estrutura do Projeto
 
@@ -82,10 +82,6 @@ Login-Dark-Light/
 - Boas práticas de responsividade com CSS
 - Uso de bibliotecas de ícones externas (Font Awesome) via CDN
 - Organização de projeto front-end simples e escalável
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ## 👤 Autor
 
