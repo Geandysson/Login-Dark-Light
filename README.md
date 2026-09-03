@@ -25,7 +25,7 @@ Este projeto é uma página de login com foco em **UI/UX**, criada para praticar
 
 | Modo Claro | Modo Escuro |
 |:---:|:---:|
-| ![Modo Claro](assets/images/preview/light-mode-full.png) | ![Modo Escuro](assets/images/preview/dark-mode-full.png) |
+| ![Modo Claro](assets/images/preview/light-mode.png) | ![Modo Escuro](assets/images/preview/dark-mode.png) |
 
 </div>
 
